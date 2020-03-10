@@ -1,7 +1,7 @@
 import React from "react";
 import { ScrollView, View, StatusBar } from "react-native";
 import theme from "../theme";
-import { Constants } from "expo";
+import Constants from 'expo-constants';
 import {
   Header,
   Row,

@@ -4,7 +4,7 @@ import { SubHeader, Paragraph, ActionButton } from "../ui";
 import posed from "react-native-pose";
 import { TouchableWithoutFeedback, View } from "react-native";
 import universalHaptic from "../haptic";
-import { Haptic } from "expo";
+import * as Haptics from 'expo-haptics';
 import {
   hiddenAlerts,
   hide,
@@ -38,7 +38,7 @@ class AlertView extends React.Component<AlertViewProps> {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ view: "peak" });
-      universalHaptic.notification(Haptic.NotificationFeedbackType.Success);
+      universalHaptic.notification(Haptics.NotificationFeedbackType.Success);
     }, 350);
   }
 

@@ -3530,6 +3530,11 @@ expect@^24.7.1:
     jest-message-util "^24.7.1"
     jest-regex-util "^24.3.0"
 
+expo-analytics-segment@~8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/expo-analytics-segment/-/expo-analytics-segment-8.0.0.tgz#2b2a0e82b68966777d78265c79a5dfef8f508f6a"
+  integrity sha512-ljsN2bNZLbHDbEIBAVy2QPIboEGpmRpO4KJMXAL1Vhrs8ob2qk/aM2tJApg2+/fsYGHV3E4ZwnUdRZnDWPHqOQ==
+
 expo-app-loader-provider@~8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/expo-app-loader-provider/-/expo-app-loader-provider-8.0.0.tgz#c18ef20a24153f5a0dbb297106ef0bcb5de57180"
@@ -3569,6 +3574,11 @@ expo-font@~8.0.0:
   integrity sha512-1hrlvxv8MpE1761v2mDjZRwhhM4hkfDr/MQlkWD2+g17N+UjU3WQct4kc+VuZW30pP+YowwrmG3O6JVoIOhWGA==
   dependencies:
     fontfaceobserver "^2.1.0"
+
+expo-haptics@~8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/expo-haptics/-/expo-haptics-8.0.0.tgz#e52bfa8f294b2a8796e229f9b1cb2f35f6485c2d"
+  integrity sha512-HscO0Mg4N7pAQEOU/GWbriNIUmzeToldnRD7MTW1KsL/JYpxeaXPuB0NvonZ/IQ3MkgF5fP0okS/tZIbvXz9Lw==
 
 expo-keep-awake@~8.0.0:
   version "8.0.0"

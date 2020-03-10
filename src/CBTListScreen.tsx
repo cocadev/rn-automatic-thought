@@ -17,7 +17,9 @@ import {
   NavigationAction,
 } from "react-navigation";
 import universalHaptic from "./haptic";
-import { Haptic, Constants } from "expo";
+import Constants from 'expo-constants';
+import * as Haptics from 'expo-haptics';
+
 import { validThoughtGroup } from "./sanitize";
 import Alerter from "./alerter";
 import alerts from "./alerts";
@@ -251,7 +253,7 @@ class CBTListScreen extends React.Component<Props, State> {
   onItemDelete = (thought: SavedThought) => {
     // Ignore the typescript error here, Expo's v31 has a bug
     // Upgrade to 32 when it's released to fix
-    universalHaptic.notification(Haptic.NotificationFeedbackType.Success);
+    universalHaptic.notification(Haptics.NotificationFeedbackType.Success);
 
     deleteExercise(thought.uuid).then(() => this.loadExercises());
   };

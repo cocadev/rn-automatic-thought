@@ -22,7 +22,7 @@
  * you, the user. **So you, the user, should have access to it.**
  */
 
-import { Segment } from "expo";
+import * as Segment from 'expo-analytics-segment';
 import isInDev from "./isInDev";
 
 Segment.initialize({

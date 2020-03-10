@@ -19,7 +19,7 @@ import {
   NavigationState,
   NavigationAction,
 } from "react-navigation";
-import { Haptic } from "expo";
+import * as Haptics from 'expo-haptics';
 import { recordScreenCallOnFocus } from "./navigation";
 import * as stats from "./stats";
 
@@ -379,7 +379,7 @@ export const CBTOnBoardingComponent = ({
     <ShowOff />
     <GotIt
       onPress={() => {
-        universalHaptic.notification(Haptic.NotificationFeedbackType.Success);
+        universalHaptic.notification(Haptics.NotificationFeedbackType.Success);
         stats.endedOnboarding();
         handleScreenTransition();
       }}
@@ -403,7 +403,7 @@ export class CBTOnBoardingScreen extends React.Component<ScreenProps> {
   }
 
   stopOnBoarding = () => {
-    universalHaptic.notification(Haptic.NotificationFeedbackType.Success);
+    universalHaptic.notification(Haptics.NotificationFeedbackType.Success);
     stats.endedOnboarding();
     this.props.navigation.pop();
   };

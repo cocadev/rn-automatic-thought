@@ -14,7 +14,10 @@ import {
   NavigationAction,
 } from "react-navigation";
 import universalHaptic from "./haptic";
-import { AppLoading, Haptic, Constants } from "expo";
+import { AppLoading } from "expo";
+import Constants from 'expo-constants';
+import * as Haptics from 'expo-haptics';
+
 import CBTView from "./CBTView";
 import { CBTOnBoardingComponent } from "./CBTOnBoarding";
 import i18n from "./i18n";
@@ -132,7 +135,7 @@ export default class CBTFormScreen extends React.Component<Props, State> {
 
   onSave = (): void => {
     // Ignore the typescript error here, it's because of an Expo bug
-    universalHaptic.notification(Haptic.NotificationFeedbackType.Success);
+    universalHaptic.notification(Haptics.NotificationFeedbackType.Success);
 
     saveExercise(this.state.thought).then(thought => {
       stats.thoughtRecorded();
@@ -141,12 +144,12 @@ export default class CBTFormScreen extends React.Component<Props, State> {
   };
 
   onNew = (): void => {
-    universalHaptic.impact(Haptic.ImpactFeedbackStyle.Light);
+    universalHaptic.impact(Haptics.ImpactFeedbackStyle.Light);
     this.setEmptyThought();
   };
 
   onEdit = (): void => {
-    universalHaptic.impact(Haptic.ImpactFeedbackStyle.Light);
+    universalHaptic.impact(Haptics.ImpactFeedbackStyle.Light);
     this.setState({ isEditing: true });
   };
 
