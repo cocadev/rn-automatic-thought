@@ -6584,10 +6584,10 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
-react-native-autogrow-textinput@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/react-native-autogrow-textinput/-/react-native-autogrow-textinput-5.2.0.tgz#acf736454781f5beaba8b7d9c943b7333691b65e"
-  integrity sha512-EI15pP6L3fACJGigh3qcILSIn1+SajAe7cABUsVMJv3VWtbufCygpxHmTR4mbmEMnnTMKgAERPQ94X2fqtwF/Q==
+react-native-autogrow-textinput@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-autogrow-textinput/-/react-native-autogrow-textinput-5.3.0.tgz#6f04e9a1a0d9775fe44b864089ff3f2bf05ba413"
+  integrity sha512-WGChNtRLDSSjUt78GzqBQ5Y4Z1H0SGpn5DaQPIMgAeJtq0UnWCzMnlZN82aX3h0lHCG4FndIA8o1p8vQRA5hVg==
 
 react-native-gesture-handler@^1.0.0:
   version "1.0.10"
@@ -6601,17 +6601,18 @@ react-native-iphone-x-helper@^1.0.3:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.0.tgz#9f8a376eb00bc712115abff4420318a0063fa796"
 
-react-native-keyboard-aware-scroll-view@^0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/react-native-keyboard-aware-scroll-view/-/react-native-keyboard-aware-scroll-view-0.7.4.tgz#80fb4b56f3c5cb399da0c6832ec52729856ac08a"
+react-native-keyboard-aware-scroll-view@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/react-native-keyboard-aware-scroll-view/-/react-native-keyboard-aware-scroll-view-0.9.1.tgz#9e54b565a5f19b30bed12221d48921781f7630af"
+  integrity sha512-tBZ8rmjELN0F6t5UBp5CW3NYmZXgVnJSzVCssv/OqG2t6kiB+OUTqxNvUP24K+HARX4H+XaW0aEJSFQkQCv6KA==
   dependencies:
     prop-types "^15.6.2"
     react-native-iphone-x-helper "^1.0.3"
 
-react-native-pose@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/react-native-pose/-/react-native-pose-0.9.0.tgz#890be7da8853c89e22ee078922375ab8a04590c4"
-  integrity sha512-zpWf/p44W7+oJD1+Ku9wb21DCtTSmuBfLut6GBi/L3Ik1kYrEgC91Yg211/jqnhpp5PaI+kqP/GvBqhPJgtKFQ==
+react-native-pose@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/react-native-pose/-/react-native-pose-0.9.1.tgz#dbee4e0970d0a4d55c380e3099a2e91bc8980c81"
+  integrity sha512-JQ17SWXk6Hetlxfj3PO09/jYt5PMwu+MZ9YPcgRp5A//EtYXvfHS+IieXDnCg36wi74yZ80MvYx025//g/tqbQ==
   dependencies:
     animated-pose "^1.2.0"
     react-pose-core "^0.5.0"
@@ -6652,6 +6653,7 @@ react-native-svg@9.13.3:
 react-native-swiper@^1.5.14:
   version "1.5.14"
   resolved "https://registry.yarnpkg.com/react-native-swiper/-/react-native-swiper-1.5.14.tgz#1c6f949ca377186300f972bb0f30d24062c899aa"
+  integrity sha512-Kn0fxKooN7Shwu1qJYHB+Y8ssXXnvrIwReHXU5jCdyYNfz2QbBv0Cv3sa2Mqzr+XgzORCFFIokc8uCCUITDrVA==
   dependencies:
     prop-types "^15.5.10"
 
