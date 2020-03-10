@@ -1,8 +1,8 @@
 <p align="center">
-<h1 align="center">✨Funnyjerry✨ </h1>
+<h1 align="center">✨King Of Devs✨ </h1>
 </p>
 <p align="center">
-  <a href="https://itunes.apple.com/us/app/quirk-cbt/id1447026451?mt=8">Download iOS</a> • <a href="https://play.google.com/store/apps/details?id=tech.econn.quirk">Download Android</a> • <a href="mailto:humans@usequirk.com">Contact</a> • <a href="https://timeline.noticeable.io/Eg17gkp9Nga9OcrvjToA">Changelog</a>
+  <a href="https://itunes.apple.com/us/app/quirk-cbt/id1447026451?mt=8">Download iOS</a> • <a href="https://play.google.com/store/apps/details?id=tech.econn.quirk">Download Android</a> • <a href="https://timeline.noticeable.io/Eg17gkp9Nga9OcrvjToA">Changelog</a>
 <br><br>
 </p>
 
